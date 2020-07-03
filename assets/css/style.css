@@ -130,9 +130,9 @@ body {
     width: 22px
 }
 
-.tabsContainer {
+/* .tabsContainer {
     margin-left: 150px;
-}
+} */
 .tabsContainer .tabList {
     padding: 0;
     margin: 0;
@@ -406,8 +406,25 @@ input:checked + .slider:before {
 
   
 }
-.pagination .pagi1{
+.pagination .pagi1 {
     color:#1a0dab;
+}
+
+.pagination .pagi2  {
+    color:#1a0dab;
+}
+
+.pagination .pagi3 {
+    color: #1a0dab ;
+}
+.pagination .previous{
+    color:#cecece;  
+    object-fit: contain;
+}
+
+.pagination .pagiNext  {
+    object-fit: contain;
+    color: #848484;
 }
 
 
@@ -485,6 +502,9 @@ input:checked + .slider:before {
   @media (max-width: 768px) {
     .slider-item {
       flex-basis: 50%;
+    }
+    .footer{
+        height: 150px;
     }
   }
   @media (max-width: 567px) {
@@ -635,17 +655,119 @@ input:checked + .slider:before {
     width: 30%;
 }
 
-@media( max-width: 1040px){
+@media all and (max-width : 1146px ){
+    .contect .contectList .part-6{
+        margin-top: -34px;
+    }
+}
+
+@media only screen and (min-device-width:1025px)
+                    and (max-device-width:1071px){
+                        .result{
+                            width:422px;
+                        }
+                    }
+
+
+@media all and ( max-width: 1040px){
     .result{
-        width: 390px;
+        width: 375px;
         height: 285px;
         border-radius: 6px;
         border: solid 1px #dfe1e5;
         background-color: #ffffff; 
     }
+    .contect .contectList li {
+        margin-top: -31px;
+    }
+    .contect .contectList .part-6{
+        margin-top: -77px;
+        margin-left: 50px;
+    }
 }
 
-@media (max-width:768px){
+
+@media all and (max-width:803px){
+    .pagi3{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-device-width: 769px )
+                    and (max-device-width:902px){
+                        .result{
+                            width: 306px;
+                            height: 334px;
+                        }
+
+                        .slider-item{
+                            padding: 1px;
+                            padding-right: 6px;
+                            margin-left: 1px;
+                        }
+                        .carousel .slider-inner .slider-item .box .boxNew a{
+
+                        }
+                        .control{
+                            left: 200px;
+                            right: 0px;
+                        }
+
+                        .footer{
+                            height: 120px;
+                          
+                        }
+                    }
+
+@media all and (max-width: 938px){
+    .contect .contectList li {
+        margin-top: -24px;
+    }
+    .contect .contectList .part-6 {
+        margin-top: -23px;
+    }
+    .pagi3{
+        display: none;
+    }
+}
+
+
+
+@media all and (max-width :934px) {
+
+   .contect .contectList .part-6{
+        display: none;
+   }
+}
+@media (min-width : 774px){
+    .tabsContainer{
+        margin-left: none;
+    }
+    .footer {
+        height: 130px;
+        padding: 16px 16px;
+        background-color: #FAFAFA;
+        border-bottom: 1px solid #ebebeb;
+    }
+    /* .result {
+        width: 290px;
+        height: 285px;
+    }  */
+}
+
+@media all and (max-width:888px){
+    .contect .contectList .contact {
+        margin-left: 440px;
+    }
+
+    .control{
+        right: -8px;
+    }
+}
+
+@media all and (max-width:768px){
     .result{
         width: 280px;
         height: 325px;
@@ -654,8 +776,168 @@ input:checked + .slider:before {
         background-color: #ffffff; 
     }
 
+    .footer{
+        height: 130px;
+    }
 
-    .tabsContainer .tabList{
-        
+}
+
+@media all and (max-width:767px){
+    .footer{
+        height: 150px;
+    }
+    .result{
+        display: none;
+    }
+    .contect .contectList li{
+        margin-top: -14px;
+        margin-right: 27px;
+    }
+
+.contect .contectList .contact {
+    margin-left: 0px;
+
+
+}
+
+@media all and (max-width:733px){
+    .contect .contectList .contact {
+        margin-left: 0px;
+    }
+}
+
+
+
+@media all and (max-width:540px ){
+    .news .Bng-Tin-bng a {
+        width: 490px;
+    }
+
+    .footer{
+        height: 250px;
+    }
+    .contect .contectList li {
+        margin-top: -15px;
+        margin-right: -3px;
+    }
+}
+@media all and (max-width:528px){
+    .news .Bng-Tin-bng a {
+        width: 459px;
+    }
+    
+    /* .search .web-Results .about-left{
+        padding-right: ;
+    } */
+
+    .contact{
+         margin-left: 110px;
+    }
+    
+    .footer{
+        height: 230px;
+       
+    }
+    .searchData {
+        FONT-SIZE: 15px;
+        margin-left: 20px;
+    }
+}
+
+
+@media all and (max-width:488px){
+    
+    .news{
+        font-size: 13px;
+    }
+    .news .Bng-Tin-bng a { 
+        width: 416px;
+    }
+    .contect .contectList .contact {
+        margin-left: 120px;
+    }
+}
+
+
+@media all and (max-width : 425px){
+    .tabsContainer{
+        margin-left: 0px;
+    }
+    .footer{
+        height: 220px;
+    padding: 16px 16px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #ebebeb;
+    }
+
+    .news .Bng-Tin-bng a{
+        width: 370px;
+    }
+
+    .search .web-Results .about-left{
+        padding-right: 250px;
+    }
+    .carousel{
+        width: 109%;
+    }
+}
+
+
+@media all and (max-width:399px){
+    .wrapper .tools .vietnam1 {
+        margin-left: 17px;
+    }
+    .news .Bng-Tin-bng a {
+        width: 340px;
+    }
+}
+
+@media all and (max-width:383px){
+    .search .web-Results .about-left {
+        padding-right: 203px;
+    }
+
+    .contect .contectList li {
+        float: left;
+        margin-top: -79px;
+    }
+    .pagi2{
+        display: none;
+    }
+}
+
+@media  all and (max-width:380px){
+    .contect .contectList li{
+        font-size: 13px;
+        margin-top: -120px;
+        margin-bottom: 59px;
+    }
+    .contect .contectList .faq {
+        margin-left: 122px;
+    }
+}
+
+@media all and (max-width:320px){
+    .news .Bng-Tin-bng a {
+        width: 280px;
+        font-size: 14px;
+    }
+    .searchData {
+        FONT-SIZE: 15px;
+        margin-left: 20px;
+    }
+    .searchData ul {
+        padding-right: 141px;
+    }
+    .search .web-Results .about-left {
+        padding-right: 180px;
+    }
+    .contect .contectList li {
+        font-size: 10px;
+        margin-top: -174px;
+        padding-bottom: 107px;;
+    }
+    .footer {
+        height: 262px;
     }
 }
