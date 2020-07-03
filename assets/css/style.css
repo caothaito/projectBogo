@@ -665,6 +665,7 @@ input:checked + .slider:before {
                     and (max-device-width:1071px){
                         .result{
                             width:422px;
+                            height: 283px;
                         }
                     }
 
